@@ -23,8 +23,3 @@ jobs:
 
     - name: Run a one-line script
       run: echo GITHUB_RUN_ID $GITHUB_RUN_ID vs. GITHUB_RUN_NUMBER $GITHUB_RUN_NUMBER
-
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
